@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+html,body{
+    background: black;
+    color: white;
+}
+
+
+.pricing{
+    position: relative;
+    background-image: url('./assets/other/PricingImage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.pricing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+  }
+
+  .pricing h2,p,button{
+    position: relative;
+    z-index: 2;
+  }
