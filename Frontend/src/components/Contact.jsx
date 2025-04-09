@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import contactImage from '../assets/other/contactImage.jpg'
+import contactImage from '../assets/other/ContactImage.jpg'
 import { ClipLoader } from 'react-spinners';
 import axios from 'axios';
 import { toast } from 'react-toastify';
