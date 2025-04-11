@@ -18,7 +18,7 @@ const Contact = () => {
       setLoading(true);
 
       try {
-          const {data} = await axios.post("http://localhost:4000/send/mail",
+          const {data} = await axios.post("https://ironlife-fitness-club.onrender.com",
             {name,email,message},
             {withCredentials:true, headers: {"Content-Type" : "application/json"}}
           );
