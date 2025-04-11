@@ -18,7 +18,7 @@ const Contact = () => {
       setLoading(true);
 
       try {
-          const {data} = await axios.post("https://ironlife-fitness-club.onrender.com",
+          const {data} = await axios.post("http://localhost:4000/send/mail",
             {name,email,message},
             {withCredentials:true, headers: {"Content-Type" : "application/json"}}
           );
@@ -88,3 +88,12 @@ export default Contact
     //     </form>
     //   </div>
     // </div>
+
+
+
+
+
+
+    // http://localhost:4000/send/mail
+
+    // https://ironlife-fitness-club.onrender.com
