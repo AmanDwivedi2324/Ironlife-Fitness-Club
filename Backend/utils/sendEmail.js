@@ -17,5 +17,6 @@ export const sendEmail = async(options) => {
         subject: options.subject,
         text: `${options.message} \n\nEmail of user who sent the message ${options.userEmail}`
     }
+    
     await transporter.sendMail(mailOptions);
 }
