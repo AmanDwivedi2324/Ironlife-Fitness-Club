@@ -33,8 +33,8 @@ const Contact = () => {
       }
   }
   return (
-    <div className='bg-cover bg-center' style={{backgroundImage:`url(${contactImage})`}}>
-            <h2 className='text-center py-10 md:py-20 font-bold text-4xl text-white tracking-wider mb-'>
+    <div className='bg-cover bg-center mb-15' style={{backgroundImage:`url(${contactImage})`}}>
+            <h2 className='text-center py-10 md:py-20 font-bold text-4xl text-white tracking-wider mb-5 '>
                 CONTACT US
             </h2>
             <div className='flex flex-col-reverse md:flex-row h-auto md:px-30 md:gap-15 px-10'>
