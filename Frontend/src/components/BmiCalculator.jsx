@@ -37,10 +37,10 @@ const BmiCalculator = () => {
   }
   return (
     <div>
-        <h2 className='text-center py-20 font-bold text-4xl text-white tracking-wider mb-5'>
+        <h2 className='text-center py-10 md:py-20 font-bold text-4xl text-white tracking-wider mb-5'>
             BMI CALCULATOR
         </h2>
-        <div className='flex flex-col md:flex-row h-auto px-30 gap-15'>
+        <div className='flex flex-col md:flex-row h-auto px-10 md:px-30 md:gap-15'>
             <div className='w-full md:w-1/2'>
             <form onSubmit={(e)=>submitHandler(e)} className="space-y-4">
                 <div className="flex flex-col">
