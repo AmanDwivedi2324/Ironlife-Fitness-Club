@@ -36,7 +36,7 @@ const BmiCalculator = () => {
         setGender("");
   }
   return (
-    <div className='mb-15'>
+    <div className='md:mt-0 mt-15 md:mb-0 mb-15'>
         <h2 className='text-center py-10 md:py-20 font-bold text-4xl text-white tracking-wider mb-5'>
             BMI CALCULATOR
         </h2>

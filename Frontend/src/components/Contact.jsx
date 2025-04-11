@@ -33,7 +33,7 @@ const Contact = () => {
       }
   }
   return (
-    <div className='bg-cover bg-center mb-15' style={{backgroundImage:`url(${contactImage})`}}>
+    <div className='bg-cover bg-center mb-15 md:mb-0' style={{backgroundImage:`url(${contactImage})`}}>
             <h2 className='text-center py-10 md:py-20 font-bold text-4xl text-white tracking-wider mb-5 '>
                 CONTACT US
             </h2>
