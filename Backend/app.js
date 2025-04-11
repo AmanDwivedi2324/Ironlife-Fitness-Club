@@ -14,7 +14,7 @@ config({path: "./config.env"});
 //middleware
 app.use(cors({
     origin: [process.env.FRONTEND_URL],   //for connecting with frontend
-    methods:["POST"],
+    methods: ["GET", "POST", "OPTIONS"],
     credentials: true
 }))
 
