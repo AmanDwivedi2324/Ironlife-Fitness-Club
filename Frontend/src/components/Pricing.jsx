@@ -4,8 +4,8 @@ import PricingBox from '../others/PricingBox'
 const Pricing = () => {
   return (
     <>
-      <div className='px-30 py-20 bg-white min-h-auto'>
-          <h2 className='text-center font-bold text-4xl text-black tracking-wider mb-10'>
+      <div className='px-10 py-10 md:px-30 md:py-20 bg-white min-h-auto'>
+          <h2 className='text-center font-bold text-2xl md:text-4xl text-black tracking-wider mb-10'>
             IRONLIFE FITNESS PLANS
           </h2>
           <div className='flex flex-col md:flex-row justify-evenly items-start min-h-screen gap-10'>

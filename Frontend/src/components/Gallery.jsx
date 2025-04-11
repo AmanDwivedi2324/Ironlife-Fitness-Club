@@ -21,9 +21,11 @@ const breakpointColumnsObj = {
 };
 
 const Gallery = () => {
+
+
   return (
-    <div className='bg-gray-950 min-h-screen px-30 py-20'>
-      <h2 className='text-center font-bold text-4xl text-[#3b7ab0] tracking-wider mb-10'>
+    <div className='bg-gray-950 min-h-screen px-10 py-10 md:px-30 md:py-20'>
+      <h2 className='text-center font-bold text-2xl md:text-4xl text-[#3b7ab0] tracking-wider mb-10'>
         BETTER BEATS BEST
       </h2>
 
